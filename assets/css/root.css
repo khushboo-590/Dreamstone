@@ -36,3 +36,6 @@ font-family: "Golos Text", serif;
 .color-white{
     color: var(--white-color);
 }
+.fs-xl{
+    font-size: var(--text-xl);
+}
