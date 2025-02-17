@@ -8,7 +8,7 @@
 
      --text-xxl: 88px;
         --text-xl: 64px;
-        --text-lg: 32px;
+        --text-lg: 48px;
         --text-md: 24px;
         --text-sm: 16px;
 }
@@ -26,4 +26,7 @@ font-family: "Golos Text", serif;
 }
 .fx-sm{
     font-size: var(--text-xl);
+}
+.fs-lg{
+    font-size: var(--text-lg);
 }
