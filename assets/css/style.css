@@ -62,6 +62,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 .max-w-238{
     max-width: 238px;
@@ -83,4 +85,141 @@
         line-height: 22.72px;
         letter-spacing: 0%;
         color: #FFFFFF;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.max-w-140{
+    max-width: 140px;
+}
+.complete{
+    width:140px;
+    border-radius: 34px;
+    padding: 8px 14px;
+    background: var(--white-15, #FFFFFF26);
+    border: 1px solid var(--white-40, #FFFFFF66);
+    
+}
+.max-w-705{
+    max-width: 705px;
+}
+.heading{
+    
+      
+        font-family: 'Golos Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 88px;
+        line-height: 88px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -3px;
+        font-feature-settings: 'liga' off;
+    
+        background: linear-gradient(203.15deg, #FFFFFF 30.4%, #314FD7 115.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    
+
+}
+.mt-40{
+    margin-top: 40px;
+}
+.elevate{
+    
+        width: 86px;
+        height: 72px;
+    border: 1px solid var(--white-30, #FFFFFF4D);
+        font-family: 'Golos Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        font-feature-settings: 'liga' off;
+    background: var(--white-10, #FFFFFF1A);
+        color: #FFFFFF;
+        right: 0;
+        margin-top: 40px;
+    
+    
+}
+.btn-1{
+   
+        /* display: flex;
+        flex-direction: row;
+        align-items: flex-start; */
+        padding: 16px 24px;
+    
+        position: absolute;
+        width: 188px;
+        height: 56px;
+        left: 706px;
+    
+        background: #1D252D;
+        color: #FFFFFF;
+        border-radius: 50px;
+}
+.flex-column{
+   flex-direction: column; 
+}
+.max-w-256{
+    max-width: 256px;
+    
+        border-right: 1px solid rgba(29, 37, 45, 0.1);
+    
+
+}
+.number{
+    font-family: Golos Text;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: 0px;
+        color: var(--Dark, #1D252D);
+}
+.mt-140{
+    margin-top: 140px;
+}
+.more{
+        line-height: 23px;
+        /* or 144% */
+        letter-spacing: -0.02em;
+        font-feature-settings: 'liga' off;
+    
+        color: #1D252D;
+    
+    
+}
+.gap-40{
+    gap:40px ;
+}
+.five{
+    /* Tags */
+    
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 14px;
+        gap: 10px;
+    
+        width: 182px;
+        height: 42px;
+    
+        background: rgba(255, 255, 255, 0.6);
+        border: 1px solid #CCCADA;
+        border-radius: 34px;
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
 }
