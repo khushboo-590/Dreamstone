@@ -1,4 +1,86 @@
 @import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
 .box{
     border: 0.5px solid var(--Dark---10, #0000001A);
+    width: 149.4261474609375;
+        height: 45.500003814697266;
+        top: 0.25px;
+        left: 0.25px;
+        border-width: 0.5px;
+}
+.gap-30{
+    gap: 30px;
+}
+.list-style{
+    list-style-type: none;
+}
+.key{
+    padding: 8px 16px;
+    border-radius: 24px;
+    font-weight: 400;
+
+}
+.box{
+    background: var(--white-15, #FFFFFF26);
+    border: 1px solid var(--white-30, #FFFFFF4D)
+}
+.fw-400{
+    font-weight: 400;
+}
+.lh-24{
+    line-height: 24px;
+}
+.text-decoration{
+        text-decoration: none;
+}
+.ml-180{
+    margin-left: 180px;
+}
+.gap-60{
+    gap: 60px;
+}
+.btn{
+    padding: 12px 24px;
+    border: 1px solid var(--dark-25, #1D252D40);
+    background: var(--white-10, #FFFFFF1A);
+    border-radius: 50px;
+}
+.left-0{
+    left: 0;
+}
+.right-0{
+    right: 0;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.bg-img{
+    background-image: url(/assets/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.max-w-238{
+    max-width: 238px;
+}
+.text{
+    line-height: 23px;
+    
+        position: absolute;
+        font-family: 'Golos Text';
+        letter-spacing: -0.02em;
+        font-feature-settings: 'liga' off;
+    
+        color: #FFFFFF;
+}
+.span{
+    font-family: Golos Text;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22.72px;
+        letter-spacing: 0%;
+        color: #FFFFFF;
 }

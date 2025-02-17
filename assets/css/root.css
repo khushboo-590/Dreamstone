@@ -1,7 +1,29 @@
 /* -----color--- */
 :root{
     --grey-color: var(--Grey-4, #EAEAF4);
+    --black-color: var(--Dark, #1D252D);
+    --white-color: var(--white-80, #FFFFFFCC);
+
+
+
+     --text-xxl: 88px;
+        --text-xl: 64px;
+        --text-lg: 32px;
+        --text-md: 24px;
+        --text-sm: 16px;
 }
 .bg-grey-color{
     background: var(--grey-color);
+}
+.black-color{
+    color: var(--black-color);
+}
+.bg-white-color{
+    background-color: var(--white-color);
+}
+.font-family{
+font-family: "Golos Text", serif;
+}
+.fx-sm{
+    font-size: var(--text-xl);
 }
