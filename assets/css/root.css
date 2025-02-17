@@ -30,3 +30,9 @@ font-family: "Golos Text", serif;
 .fs-lg{
     font-size: var(--text-lg);
 }
+.bg-black{
+        background: var(--black-color);
+}
+.color-white{
+    color: var(--white-color);
+}

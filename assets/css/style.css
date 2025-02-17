@@ -1,307 +1,487 @@
 @import url(./root.css);
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
-.box{
+
+.box {
     border: 0.5px solid var(--Dark---10, #0000001A);
     width: 149.4261474609375;
-        height: 45.500003814697266;
-        top: 0.25px;
-        left: 0.25px;
-        border-width: 0.5px;
+    height: 45.500003814697266;
+    top: 0.25px;
+    left: 0.25px;
+    border-width: 0.5px;
 }
-.gap-30{
+
+.gap-30 {
     gap: 30px;
 }
-.list-style{
+
+.list-style {
     list-style-type: none;
 }
-.key{
+
+.key {
     padding: 8px 16px;
     border-radius: 24px;
     font-weight: 400;
 
 }
-.box{
+
+.box {
     background: var(--white-15, #FFFFFF26);
     border: 1px solid var(--white-30, #FFFFFF4D)
 }
-.fw-400{
+
+.fw-400 {
     font-weight: 400;
 }
-.lh-24{
+
+.lh-24 {
     line-height: 24px;
 }
-.text-decoration{
-        text-decoration: none;
+
+.text-decoration {
+    text-decoration: none;
 }
-.ml-180{
-    margin-left: 180px;
+
+.ml-150 {
+    margin-left: 150px;
 }
-.gap-60{
+
+.gap-60 {
     gap: 60px;
 }
-.btn{
+
+.btn {
     padding: 12px 24px;
     border: 1px solid var(--dark-25, #1D252D40);
     background: var(--white-10, #FFFFFF1A);
     border-radius: 50px;
 }
-.left-0{
+
+.left-0 {
     left: 0;
 }
-.right-0{
+
+.right-0 {
     right: 0;
 }
-.position-relative{
+
+.position-relative {
     position: relative;
 }
-.position-absolute{
+
+.position-absolute {
     position: absolute;
 }
-.bg-img{
+
+.bg-img {
     background-image: url(/assets/images/bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
+    margin-top: 20px;
+    opacity: 100%;
+    z-index: -1;
 }
-.max-w-238{
+
+.max-w-238 {
     max-width: 238px;
 }
-.text{
+
+.text {
     line-height: 23px;
-    
-        position: absolute;
-        font-family: 'Golos Text';
-        letter-spacing: -0.02em;
-        font-feature-settings: 'liga' off;
-    
-        color: #FFFFFF;
+
+    position: absolute;
+    font-family: 'Golos Text';
+    letter-spacing: -0.02em;
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
 }
-.span{
+
+.span {
     font-family: Golos Text;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 22.72px;
-        letter-spacing: 0%;
-        color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.72px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
 }
-.pt-80{
+
+.pt-80 {
     padding-top: 80px;
 }
-.pt-50{
+
+.pt-50 {
     padding-top: 50px;
 }
-.max-w-140{
+
+.max-w-140 {
     max-width: 140px;
 }
-.complete{
-    width:140px;
+
+.complete {
+    width: 140px;
     border-radius: 34px;
     padding: 8px 14px;
     background: var(--white-15, #FFFFFF26);
     border: 1px solid var(--white-40, #FFFFFF66);
-    
+
 }
-.max-w-705{
+
+.max-w-705 {
     max-width: 705px;
 }
-.heading{
-    
-      
-        font-family: 'Golos Text';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 88px;
-        line-height: 88px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: -3px;
-        font-feature-settings: 'liga' off;
-    
-        background: linear-gradient(203.15deg, #FFFFFF 30.4%, #314FD7 115.77%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    
+
+.heading {
+
+
+    font-family: 'Golos Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 88px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -3px;
+
+
 
 }
-.mt-40{
+
+.mt-40 {
     margin-top: 40px;
 }
-.elevate{
-    
-        width: 86px;
-        height: 72px;
+
+.elevate {
+
+    width: 86px;
+    height: 72px;
     border: 1px solid var(--white-30, #FFFFFF4D);
-        font-family: 'Golos Text';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        font-feature-settings: 'liga' off;
+    font-family: 'Golos Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
     background: var(--white-10, #FFFFFF1A);
-        color: #FFFFFF;
-        right: 0;
-        margin-top: 40px;
-    
-    
-}
-.btn-1{
-   
-        /* display: flex;
-        flex-direction: row;
-        align-items: flex-start; */
-        padding: 16px 24px;
-    
-        position: absolute;
-        width: 188px;
-        height: 56px;
-        left: 706px;
-    
-        background: #1D252D;
-        color: #FFFFFF;
-        border-radius: 50px;
-}
-.flex-column{
-   flex-direction: column; 
-}
-.max-w-256{
-    max-width: 256px;
-    
-        border-right: 1px solid rgba(29, 37, 45, 0.1);
-    
+    color: #FFFFFF;
+    right: 0;
+    margin-top: 40px;
+
 
 }
-.number{
-    font-family: Golos Text;
-        font-weight: 500;
-        font-size: 64px;
-        line-height: 64px;
-        letter-spacing: 0px;
-        color: var(--Dark, #1D252D);
+
+.btn-1 {
+
+    padding: 16px 24px;
+
+ 
+
+    background: #1D252D;
+    color: #FFFFFF;
+    border-radius: 50px;
 }
-.mt-140{
+
+.flex-column {
+    flex-direction: column;
+}
+
+.max-w-256 {
+    max-width: 256px;
+
+    border-right: 1px solid rgba(29, 37, 45, 0.1);
+
+
+}
+.ml-90{
+    margin-left: 90px;
+}
+
+.number {
+    font-family: Golos Text;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    color: var(--Dark, #1D252D);
+}
+
+.mt-140 {
     margin-top: 140px;
 }
-.more{
-        line-height: 23px;
-        /* or 144% */
-        letter-spacing: -0.02em;
-        font-feature-settings: 'liga' off;
-    
-        color: #1D252D;
-    
-    
-}
-.gap-40{
-    gap:40px ;
-}
-.box-5{
-        padding: 8px 14px;
-        gap: 10px;
-    
-        background: rgba(255, 255, 255, 0.6);
-        border: 1px solid #CCCADA;
-        border-radius: 34px;
-    
-        
-}
-.section-2{
-    
-        max-width: 619px;
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 54px;
-        text-align: center;
-        letter-spacing: -2px;
-        font-feature-settings: 'liga' off;
-    
-        color: #1D252D;
-    
+
+.more {
+    line-height: 23px;
+    /* or 144% */
+    letter-spacing: -0.02em;
+    font-feature-settings: 'liga' off;
+
+    color: #1D252D;
+
 
 }
-.card{
+
+.gap-40 {
+    gap: 40px;
+}
+
+.box-5 {
+    padding: 8px 14px;
+    gap: 10px;
+
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #CCCADA;
+    border-radius: 34px;
+
+
+}
+
+.section-2 {
+
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -2px;
+    font-feature-settings: 'liga' off;
+
+    color: #1D252D;
+
+
+}
+
+.card {
     background: linear-gradient(180deg, #F2F0FE 0%, #F6F9FF 100%);
     border: 1px solid #E9E6F7;
     max-width: 262.0425109863281;
-    padding: 20px;
+    padding: 10px;
     max-width: 272px;
     border-radius: 8px;
-       
+
 }
-.max-w-244{
+
+.max-w-244 {
     max-width: 244px;
 }
-.step{
+
+.step {
     background: var(--White, #FFFFFF);
     padding: 8px 15px;
     border: 1px solid var(--White, #FFFFFF);
-max-width: 100px;
-font-style: normal;
-font-weight: 500;
-border-radius: 34px;
-text-transform: uppercase;
-font-feature-settings: 'liga' off;
+    max-width: 100px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 34px;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
 
 }
-.no{
-  
-    
-        width: 224px;
-        height: 30px;
-    
-       
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 150%;
-        text-align: center;
-    
-        color: #1D252D;
-    
-    
-       
+
+.no {
+
+
+    width: 224px;
+    height: 30px;
+
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #1D252D;
+
+
+
 }
-.fast{
-    
-        width: 234px;
-        height: 88px;
-    
-        font-family: 'Golos Text';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
-       text-align: center;
-        letter-spacing: -0.01em;
-    
-        color: rgba(29, 37, 45, 0.7);
-    
-    
-        
+
+.fast {
+
+    width: 234px;
+    height: 88px;
+
+    font-family: 'Golos Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: rgba(29, 37, 45, 0.7);
+
+
+
 }
-.gap-8{
+
+.gap-8 {
     gap: 8px;
 }
-.my-file{
+
+.my-file {
     display: flex;
     gap: 8px;
     background: var(--white-40, #FFFFFF66);
 }
-.max-w-515{
+
+.max-w-515 {
     max-width: 515px;
 }
-.para{
-  
-        font-weight: 400;
-        line-height: 150%;
-        text-align: center;
-    
-    
-    
-       
+
+.para {
+
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+
+
+
+
 }
+
+.pt-16 {
+    padding-top: 16px;
+}
+
+input[type="email"] {
+    /* width: 404px; */
+    text-align: left;
+    padding: 16px 96px 16px 24px;
+    border: 1px solid var(--White, #FFFFFF);
+    font-family: 'Golos Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: #000000;
+
+    color: rgba(255, 255, 255, 0.5);
+
+
+
+}
+
+.Subscribe {
+    right: 480px;
+    padding-top: 15px;
+    padding: 16px;
+    border: 1px solid var(--White, #FFFFFF);
+}
+
+.max-w-480 {
+    max-width: 480px;
+}
+
+.stay {
+
+    font-family: 'Golos Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    letter-spacing: -0.01em;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stone {
+    /* background-image: url(/assets/images/Footer.png);
+    background-position: center;
+    background-repeat: no-repeat; */
+    transform: translate(470px);
+    z-index: -1;
+}
+.gap-90{
+    gap: 90px;
+}
+@media(max-width: 1246px){
+    .ml-150{
+        margin-left: 70px;
+    }
+    .gap-30{
+        gap: 20px;
+    }
+
+}
+@media(max-width: 1146px) {
+    .ml-150 {
+        margin-left: 50px;
+    }
+
+    .gap-30 {
+        gap: 10px;
+    }
+
+}
+@media (max-width:991.98px) {
+
+    .menu-list {
+        flex-direction: column;
+        position: fixed;
+        justify-content: center;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        background-color: #000000;
+        transition: right 200ms linear;
+        z-index: 10;
+
+
+        ul {
+            flex-direction: column;
+
+        }
+    }
+
+    .menu-list.show {
+        right: 0;
+    }
+
+    .menu-icon {
+        display: flex;
+        width: 40px;
+        height: 30px;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 99;
+        margin-top: 10px;
+
+        span {
+            width: 100%;
+            height: 5px;
+            background-color: #000000;
+            border-radius: 4px;
+            transition: all 200ms linear;
+        }
+    }
+
+    .menu-icon.active span:first-of-type {
+        transform: rotate(40deg);
+        transform-origin: left;
+    }
+
+    .menu-icon.active span:nth-child(2) {
+        height: 0;
+    }
+
+    .menu-icon.active span:last-of-type {
+        transform: rotate(-40deg);
+        transform-origin: left;
+    }}
