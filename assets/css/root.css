@@ -1,0 +1,7 @@
+/* -----color--- */
+:root{
+    --grey-color: var(--Grey-4, #EAEAF4);
+}
+.bg-grey-color{
+    background: var(--grey-color);
+}
