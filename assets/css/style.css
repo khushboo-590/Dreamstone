@@ -22,9 +22,11 @@
     padding: 8px 16px;
     border-radius: 24px;
     font-weight: 400;
-
+background: var(--white-80, #FFFFFFCC);
 }
-
+.links:hover{
+    text-decoration: underline;
+}
 .box {
     background: var(--white-15, #FFFFFF26);
     border: 1px solid var(--white-30, #FFFFFF4D)
@@ -36,6 +38,9 @@
 
 .lh-24 {
     line-height: 24px;
+}
+.ml-70{
+    margin-bottom: 70px;
 }
 
 .text-decoration {
@@ -196,8 +201,8 @@
 
 
 }
-.ml-90{
-    margin-left: 90px;
+.ml-150{
+    margin-left: 150px;
 }
 
 .number {
@@ -280,12 +285,12 @@
     font-feature-settings: 'liga' off;
 
 }
+.pt-120{
+    padding-top: 120px;
+}
 
 .no {
 
-
-    width: 224px;
-    height: 30px;
 
 
     font-style: normal;
@@ -299,11 +304,11 @@
 
 
 }
-
+.color-grey{
+    color: grey;
+}
 .fast {
 
-    width: 234px;
-    height: 88px;
 
     font-family: 'Golos Text';
     font-style: normal;
@@ -349,9 +354,9 @@
 }
 
 input[type="email"] {
-    /* width: 404px; */
+    max-width: 320px;
     text-align: left;
-    padding: 16px 96px 16px 24px;
+    padding: 16px 46px 16px 24px;
     border: 1px solid var(--White, #FFFFFF);
     font-family: 'Golos Text';
     font-style: normal;
@@ -365,7 +370,9 @@ input[type="email"] {
 
 
 }
-
+.mt-70{
+    margin-top: 70px;
+}
 .Subscribe {
     right: 480px;
     padding-top: 15px;
@@ -409,6 +416,9 @@ input[type="email"] {
 .gap-90{
     gap: 90px;
 }
+.display{
+    display: flex;
+}
 @media(max-width: 1246px){
     .ml-150{
         margin-left: 70px;
@@ -440,7 +450,7 @@ input[type="email"] {
         width: 100%;
         background-color: #000000;
         transition: right 200ms linear;
-        z-index: 10;
+        z-index: 1;
 
 
         ul {
@@ -484,4 +494,33 @@ input[type="email"] {
     .menu-icon.active span:last-of-type {
         transform: rotate(-40deg);
         transform-origin: left;
-    }}
+    }
+.heading{
+    font-size: 66px;
+}
+.none{
+    display: none;
+}
+
+}
+@media(max-width:768px){
+    /* .heading{
+        font-size: 44px;
+    } */
+    .display{
+        display: unset;
+    }
+        input[type="email"] {
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+                .mb-40 {
+                    margin-bottom: 40px;
+                }
+        }
+
+@media(max-width:576px) {
+    /* .heading {
+        font-size: 44px;
+    } */
+}
