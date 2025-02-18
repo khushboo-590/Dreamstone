@@ -4,7 +4,7 @@ $(document).ready(function () {
         dots: true,
         infinite: true,
         // speed: 250,
-        slidesToShow: 4,
+        slidesToShow: 5,
         autoplay: true,
         autoplaySpeed: 2000,
         prevArrow: false,
@@ -43,3 +43,12 @@ menuIcon.addEventListener("click", () => {
     let activeNav = menuList.hasAttribute("class", "show");
     if (activeNav) { menuIcon.classList.toggle("active") };
 })
+
+
+
+
+
+
+
+
+
