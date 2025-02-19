@@ -19,11 +19,13 @@
 }
 
 .key {
-    padding: 8px 16px;
+    padding: 12px 16px;
     border-radius: 24px;
     font-weight: 400;
     background: var(--white-80, #FFFFFFCC);
+    z-index: 1;
 }
+
 
 .links:hover {
     text-decoration: underline;
@@ -138,10 +140,15 @@
     z-index: 1;
 
 }
+.five{
+    padding: 12px 16px;
+      border: 1px solid #CCCADA;
+        border-radius: 34px;
+        z-index: -1;
+}
 
 .complete:hover {
     color: #000000;
-    z-index: 1;
 }
 
 .max-w-705 {
@@ -193,6 +200,7 @@
     background: #1D252D;
     color: #FFFFFF;
     border-radius: 50px;
+    z-index: 1;
 }
 
 .btn-1:hover {
@@ -239,11 +247,11 @@
 }
 
 .box-5 {
-    padding: 12px 24px;
+    padding: 12px 16px;
     gap: 32px;
     border: 1px solid #CCCADA;
     border-radius: 34px;
-    opacity: 70%;
+    z-index: 1;
 }
 
 .section-2 {
